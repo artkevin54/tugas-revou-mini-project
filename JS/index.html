@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="home" class="banner">
+        <div class="banner-container">
+            <div class="slide">
+                <img src="https://img.okezone.com/content/2016/02/19/298/1316583/cara-supermarket-jamin-kesegaran-buah-OQqxU21MEq.jpg" alt="sayur">
+                <div class="banner-text" id="welcomeText">
+                    <h1>Welcome to E-Groceries</h1>
+                    <p>Get fresh groceries delivered to your doorstep!</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://awsimages.detik.net.id/community/media/visual/2018/02/23/8ab48258-8b2b-4284-9ced-62ef1341bd5a.jpeg?w=600&q=90" alt="cara-supermarket-jamin-kesegaran-buah-OQqxU21MEq">
+                <div class="banner-text">
+                    <h1>Shop Hassle-Free</h1>
+                    <p>Choose from a wide selection of products online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <h2>Our Packages</h2>
+        <h3> kami menyedikan pengeriman berbagai daerah,penasaran hubungi kami dibawah ini </h3>
+        <div class="package-container">
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us / Hubungi Kami</h2>
+        <p>Hubungi 6289208762 1x24 jam setelah data kami terima.</p>
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest">
+                <option value="Groceries">Groceries</option>
+                <option value="Delivery">Delivery</option>
+                <option value="Customer Service">Customer Service</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 E-Groceries. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+</html>
